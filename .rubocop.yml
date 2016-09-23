@@ -1,0 +1,58 @@
+# This is the configuration used to check the rubocop source code.
+
+
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+    - 'rubocop_pre_commit_hook.rb'
+    - 'db/*.rb'
+    - 'db/*/*.rb'
+    - 'config/environments/*.rb'
+    - 'bin/*/*.rb'
+    - 'bin/*'
+    - 'config/*'
+    - 'config/*/*.rb'
+    - 'spec/spec_helper.rb'
+  TargetRubyVersion: 2.2
+  DisplayCopNames: true
+
+Rails:
+  Enabled: true
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/AccessorMethodName:
+  Enabled: false
+
+Style/UnneededPercentQ:
+  Enabled: false
+
+Style/Encoding:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/AbcSize:
+  Max: 26
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/Lambda:
+  EnforcedStyle: literal

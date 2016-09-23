@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/Admin/active/railways/app/views'
+let g:netrw_dirhist_2='/Users/Admin/active/railways/app'
+let g:netrw_dirhist_3='/Users/Admin/active/railways'
+let g:netrw_dirhist_4='/Users/Admin/active'
+let g:netrw_dirhist_5='/Users/Admin/active/qna'
+let g:netrw_dirhist_6='/Users/Admin/active/qna/app'
+let g:netrw_dirhist_7='/Users/Admin/active/qna/app/views'
+let g:netrw_dirhist_8='/Users/Admin/active/qna/app/views/layouts'
