@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Admin/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -87,3 +87,5 @@ export PATH=/Applications/Postgres.app/Contents/Versions/9.5/bin:$PATH
 export EDITOR=vim
 #autoload -U promptinit && promptinit
 #prompt pure
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
